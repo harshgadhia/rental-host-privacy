@@ -1,11 +1,11 @@
 # Privacy Policy
 
-**Airbnb Host Expense Tracker**  
+**Rental Host Expense Tracker**  
 Last updated: April 14, 2026
 
 ## Overview
 
-Airbnb Host Expense Tracker is a private iOS application designed for personal use by a single Airbnb host to track business expenses, mileage, and generate tax reports.
+Rental Host Expense Tracker is a private iOS application designed for personal use by a single rental host to track business expenses, mileage, and generate tax reports.
 
 ## Data Collection
 
