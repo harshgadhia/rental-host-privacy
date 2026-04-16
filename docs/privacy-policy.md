@@ -37,5 +37,5 @@ We do not share, sell, rent, or trade any information with third parties for the
 
 If you have any questions about this privacy policy, please contact:
 
-**Mittal Gadhia**  
+**Mittal Vaghela**  
 Email: mittalgadhia@gmail.com
