@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Spendly: Personal Expense Tracker</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+    h1 { color: #1a1a1a; }
+    h2 { color: #2E86C1; margin-top: 32px; }
+    p { margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p><strong>Spendly: Personal Expense Tracker</strong><br>Last updated: April 17, 2026</p>
+
+  <h2>Overview</h2>
+  <p>Spendly is a private iOS application designed for personal and household expense tracking. It helps individuals track spending by category, scan receipts, and review monthly and annual spending trends.</p>
+
+  <h2>Data Collection</h2>
+  <p>This app does not collect, share, or sell any personal data to third parties. There are no analytics SDKs, advertising networks, or third-party data collection services integrated into this app.</p>
+
+  <h2>Data Storage</h2>
+  <p>All data entered into the app (expenses, receipt images, categories, payment sources) is stored in a private AWS cloud account owned and controlled solely by the app owner. No data is accessible to any third party.</p>
+  <p>Receipt images are stored in a private Amazon S3 bucket. Expense records are stored in a private Amazon DynamoDB database. Both are protected by AWS security controls and are not publicly accessible.</p>
+
+  <h2>Authentication</h2>
+  <p>The app uses secure authentication with bcrypt password hashing and JWT tokens. Login credentials are never stored in plain text. Authentication tokens are stored locally in the iOS Keychain.</p>
+
+  <h2>Camera and Photo Library Access</h2>
+  <p>The app requests access to your camera and photo library solely to photograph receipts and attach them to expense entries. Receipt images are uploaded directly to your private AWS S3 bucket and are not shared with any third party.</p>
+
+  <h2>Receipt Processing</h2>
+  <p>Receipt images are processed using Amazon Textract (OCR) and Anthropic Claude AI solely for the purpose of extracting expense information (store name, date, amount, and line-item category breakdown). This processing occurs within your private AWS account and the results are stored only in your private database.</p>
+
+  <h2>No Third-Party Sharing</h2>
+  <p>We do not share, sell, rent, or trade any information with third parties for their commercial purposes.</p>
+
+  <h2>Account Deletion</h2>
+  <p>You may delete your account and all associated data at any time from the Settings screen within the app. Deletion is permanent and removes all expenses, receipt images, and account credentials from our servers.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this privacy policy, please contact:<br>
+  <strong>Harsh Gadhia</strong><br>
+  Email: harsh_gadhia@intuit.com</p>
+</body>
+</html>
